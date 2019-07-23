@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="pckg1.testsuite"/>
+      <methods>
+      <include name="method1"></include>
+      <include name="method2"></include>
+      <exclude name="method3"></exclude>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TC02">
+  <classes>
+  <class name="pckg1.testsuite"/>
+  <class name="pckg1.testsuite3"/>
+  </classes>
+  </test>
+</suite> <!-- Suite -->
